@@ -9,5 +9,3 @@ if book_type == "adventure":
     print("I like adventure books!")
 # Display the final message
     print("Finished reading book")
-
-
