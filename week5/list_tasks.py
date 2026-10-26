@@ -23,3 +23,17 @@ def run_task2():
     print(f"{path[6]} for {path[7]} steps")
 if __name__ == "__main__":
     run_task2()
+
+
+def directions():
+    steps = ["Move Forward", "Move Backward", "Turn Left" "Turn Right"]
+    return steps
+
+def menu():
+    print("Please select an option")
+    dirs = directions()
+    for index in range(len(dirs)):
+        print(f"{index}: {dirs[index]}")
+
+def run_task3():
+    menu()
