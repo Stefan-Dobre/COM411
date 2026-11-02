@@ -23,7 +23,7 @@ def run_task2():
     print(f"{path[6]} for {path[7]} steps")
 if __name__ == "__main__":
     run_task2()
-
+# task 2
 
 def directions():
     steps = ["Move Forward", "Move Backward", "Turn Left" "Turn Right"]
@@ -37,3 +37,5 @@ def menu():
 
 def run_task3():
     menu()
+run_task3()
+
