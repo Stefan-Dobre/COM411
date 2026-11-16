@@ -26,11 +26,15 @@ def medium():
     y = [2, 5, 5, 2, 2]
     plt.plot(x, y, 'g--s')
 
-
+def large():
+    x = [1, 1, 6, 6, 1]
+    y = [1, 6, 6, 1, 1]
+    plt.plot(x, y, 'b-p')
 
 def task_3():
      small()
      medium()
+     large()
      plt.show()
 
 task_3()
