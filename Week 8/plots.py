@@ -11,4 +11,26 @@ def run_task1():
     z = [1, 4, 9, 16, 25]
     display_line(x, z)
 
-run_task1()
+
+
+
+def small():
+    x = [3, 3, 4, 4, 3]
+    y = [3,4, 4, 3, 3]
+    plt.plot(x, y, 'ro--')
+
+
+
+def medium():
+    x = [2, 2, 5, 5, 2]
+    y = [2, 5, 5, 2, 2]
+    plt.plot(x, y, 'g--s')
+
+
+
+def task_3():
+     small()
+     medium()
+     plt.show()
+
+task_3()
